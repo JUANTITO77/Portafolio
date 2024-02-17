@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Tilt+Prism&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+:root{
+    --principal:#ff5080;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+#inicio{
+    background: linear-gradient(
+        #0005,
+        #0005
+    ), url(fondoNetflix.png);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+#inicio .contenido header{
+    background-color: #000a;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+
+#inicio .contenido header .contenido-header {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#inicio .contenido header .contenido-header h1{
+    text-align: center;
+    color: var(--principal);
+}
+
+#inicio .contenido header .contenido-header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#inicio .contenido header .contenido-header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5s;
+}
+
+#inicio .contenido header .contenido-header nav ul li a:hover{
+    color: var(--principal);
+    font-weight: 800;
+    border-bottom: 2px solid var(--principal);
+    padding: 5px;
+}
+
+#inicio .contenido header .contenido-header .redes a{
+    text-decoration: none;
+    color: var(--principal);
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5s;
+    font-size: 23px;
+}
+
+#inicio .contenido header .contenido-header .redes a:hover{
+    
+    color: #fff;
+}
+
+#inicio .contenido .presentacion{
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#inicio .contenido .presentacion .bienvenida{
+    font-size: 19px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+
+#inicio .contenido .presentacion h2{
+    font-size: 55px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#inicio .contenido .presentacion h2 span{
+    font-size: 35px;
+    color: var(--principal);
+}
+
+
+#inicio .contenido .presentacion .descripcion {
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+#inicio .contenido .presentacion a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 3px solid var(--principal);
+    box-shadow: 0 0 5px 2px var(--principal);
+    border-radius: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+#inicio .contenido .presentacion a:hover{
+    background-color: var(--principal);
+    border: 1px solid #fff;
+    box-shadow: 0 0 4px 1px #fffa;
+}
+
+#icono-nav{
+    color: #fff;
+    display: none;
+}
+
+/*sobre mai*/
+
+#sobremi{
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 15px;
+    color: #111135;
+    display: flex;
+}
+
+
+
+#sobremi .contenedor-foto{
+    max-width: 400px;
+    margin-right: 80px;
+}
+
+#sobremi .contenedor-foto img{
+    padding: 20px;
+    width: 30vw;
+    border-radius: 20px;
+    background-color: #f3f3f3;
+    box-shadow: 2px 4px 5px 2px #666;
+    border: none;
+}
+
+#sobremi .sobremi{
+    margin: 0 40px;
+}
+
+#sobremi .sobremi .titulo-seccion{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+
+#sobremi .sobremi h2{
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+#sobremi .sobremi h2 span{
+    color: var(--principal);
+}
+
+#sobremi .sobremi h3{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom:20px ;
+    letter-spacing: 1px;
+}
+
+#sobremi .sobremi p{
+    font-size: 14px;
+    line-height: 25px;
+    color:#565656;
+    margin-bottom: 12px;
+}
+
+
+#sobremi .sobremi a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border-radius: 30px;
+    box-shadow: 1px 2px 4px 1px #666;
+    margin-top: 30px;
+    padding: 10px 20px;
+    transition: .5s;
+}
+
+#sobremi .sobremi a:hover{
+    background: var(--principal);
+    color:#fff;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
